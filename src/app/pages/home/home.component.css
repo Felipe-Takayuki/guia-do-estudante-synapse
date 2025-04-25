@@ -1,0 +1,9 @@
+.w-responsive {
+    width: 25%;
+}
+  
+@media (max-width: 576px) {
+    .w-responsive {
+      width: 50%;
+    }
+}
