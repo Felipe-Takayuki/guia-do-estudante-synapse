@@ -1,0 +1,15 @@
+.input-group-text .bi {
+  font-size: 1.5rem;
+}
+
+.input-group .input-group-text {
+  border-left: none !important;
+}
+
+
+
+@media (max-width: 576px) {
+    .login {
+      width: 100% !important; /* no celular, ocupa a tela inteira */
+    }
+  }

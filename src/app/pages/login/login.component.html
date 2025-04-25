@@ -1,0 +1,38 @@
+<main class="container-fluid  h-100 text-white-50 mt-5">
+    <section class="d-flex align-items-center justify-content-evenly">
+        <div class="container-fluid w-75 text-center d-none d-sm-block ">
+            <img src="images/assets/learning.svg" alt="" class="img-fluid w-75 " />
+
+        </div>
+        <div class="d-flex flex-column w-50 align-items-center justify-content-center login ">
+            <img src="logo/Logo.svg" alt="" class="img-fluid w-25">
+            <h1 class="text-center fs-4 fw-bold mt-5 text-black">Guia do Mochileiro <br />Fatecano</h1>
+            <div class="d-flex flex-column align-items-center w-100 ">
+                <div class="w-75 mt-3">
+                    <label for="exampleFormControlInput1" class="form-label text-grey">E-mail</label>
+                    <input type="email" class="form-control w-100" id="exampleFormControlInput1"
+                        placeholder="Digite seu e-mail">
+                </div>
+
+                <div class=" w-75 mb-3 mt-4">
+                    <label for="senha" class="form-label text-grey">Senha</label>
+                    <div class="input-group">
+                        <input type="password" id="senha" class="form-control" placeholder="Digite sua senha">
+                        <span class="input-group-text border-start-0">
+                            <i class="bi bi-lock fs-5"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="w-75 text-center">
+                    <app-button text="Entrar" route="home"></app-button>
+                </div>                
+                <a href="/register" class="text-decoration-none text-black-50 mt-5">Ainda não possui conta? <span class="text-green fw-bold">Cadastrar-se</span></a>
+            </div>
+
+
+
+
+        </div>
+    </section>
+</main>
