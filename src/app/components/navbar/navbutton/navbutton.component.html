@@ -1,0 +1,12 @@
+<li class="nav-item">
+    <button class="nav-link text-white "
+    
+    [ngClass]="{
+      'bg-secondary rounded-3': active,
+      'bg-transparent': !active
+    }"
+    >
+        <img [src]="iconSrc" alt="">
+      {{label}}
+    </button>
+  </li>
