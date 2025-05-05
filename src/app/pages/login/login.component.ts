@@ -8,5 +8,8 @@ import { ButtonComponent } from '../../components/button/button.component';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-
+ passwordOcult = false 
+ showPassword() {
+  this.passwordOcult = !this.passwordOcult
+ }
 }
