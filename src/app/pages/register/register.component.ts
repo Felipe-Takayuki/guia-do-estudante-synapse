@@ -8,8 +8,8 @@ import { ButtonComponent } from '../../components/button/button.component';
   styleUrl: './register.component.css'
 })
 export class RegisterComponent {
-  passwordOcult = false 
-  passwordOcult1 = false
+  passwordOcult = true 
+  passwordOcult1 = true
   showPassword() {
    this.passwordOcult = !this.passwordOcult
   }
